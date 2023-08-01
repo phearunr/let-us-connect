@@ -1,17 +1,17 @@
-import {
-  FaHtml5,
-  FaCss3,
-  FaJs,
-  FaReact,
-  FaFigma,
-  FaWordpress,
-} from "react-icons/fa";
-import {
-  SiNextdotjs,
-  SiFramer,
-  SiAdobexd,
-  SiAdobephotoshop,
-} from "react-icons/si";
+// import {
+//   FaHtml5,
+//   FaCss3,
+//   FaJs,
+//   FaReact,
+//   FaFigma,
+//   FaWordpress,
+// } from "react-icons/fa";
+// import {
+//   SiNextdotjs,
+//   SiFramer,
+//   SiAdobexd,
+//   SiAdobephotoshop,
+// } from "react-icons/si";
 
 //  data
 export const aboutData = [
@@ -21,18 +21,20 @@ export const aboutData = [
       {
         title: "Web Development",
         icons: [
-          <FaHtml5 />,
-          <FaCss3 />,
-          <FaJs />,
-          <FaReact />,
-          <SiNextdotjs />,
-          <SiFramer />,
-          <FaWordpress />,
+          // <FaHtml5 />,
+          // <FaCss3 />,
+          // <FaJs />,
+          // <FaReact />,
+          // <SiNextdotjs />,
+          // <SiFramer />,
+          // <FaWordpress />,
         ],
       },
       {
         title: "UI/UX Design",
-        icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
+        icons: [
+          // <FaFigma />, <SiAdobexd />, <SiAdobephotoshop />
+        ],
       },
     ],
   },

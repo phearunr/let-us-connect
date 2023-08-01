@@ -64,7 +64,12 @@ const TestimonialSlider = () => {
               <div className="w-full max-w-[300px] flex flex-col">
                 <div className="flex flex-col items-center text-center">
                   <div className="mb-2 mx-auto">
-                    <Image src={person.image} width={100} height={100} />
+                    <Image
+                      src={person.image}
+                      width={100}
+                      height={100}
+                      alt=""
+                    />
                   </div>
                   <div className="text-lg">{ person.name }</div>
                   <div className="text-[12px] uppercase font-extralight tracking-widest">{ person.position }</div>

@@ -9,6 +9,7 @@ const Circles = () => {
         src={'/circles.png'}
         width={260}
         height={200}
+        alt=""
       />
     </div>
   );

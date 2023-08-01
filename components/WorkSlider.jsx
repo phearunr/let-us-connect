@@ -89,7 +89,7 @@ const WorkSlider = () => {
               <div className='grid grid-cols-2 grid-rows-2 gap-4 cursor-pointer'>
                 { slide.images.map((image, indexImage) => {
                   return (
-                    <div className='relative rounded-lg overflow-hidden items-center justify-center group'>
+                    <div key={indexImage} className='relative rounded-lg overflow-hidden items-center justify-center group'>
                       <div className='flex items-center justify-center relative overflow-hidden group'>
                         {/* image */}
                         <Image src={image.path} width={500} height={300} alt='' />
@@ -103,7 +103,7 @@ const WorkSlider = () => {
                              {/* title part 2 */}
                             <div className='translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-500'> Project </div>
                              {/* icon */}
-                            <div className=' text-xl translate-y-[500%] group-hover: translate-y-0 transition-all duration-300 delay-200'>
+                            <div className=' text-xl group-hover: translate-y-0 transition-all duration-300 delay-200'>
                               <BsArrowRight />
                             </div>
                           </div>
